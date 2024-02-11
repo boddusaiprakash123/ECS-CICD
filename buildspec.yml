@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - REPOSITORY_URI=918462768359.dkr.ecr.us-east-1.amazonaws.com/test.blog:latest
+      - REPOSITORY_URI=918462768359.dkr.ecr.us-east-1.amazonaws.com/test.blog
       - CODEBUILD_BUILD_NUMBER=Latest
   pre_build:
     commands:
